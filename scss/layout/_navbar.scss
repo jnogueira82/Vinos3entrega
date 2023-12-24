@@ -1,0 +1,35 @@
+.barra-de-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $color-primario;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    .navi {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    li a {
+        text-decoration: none;
+        color: $color-secundario;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .barra-de-navegacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: $color-primario;
+        font-weight: bold;
+        font-size: 1.5rem;
+
+        .navi {
+            text-align: center;
+        }
+    }
+}

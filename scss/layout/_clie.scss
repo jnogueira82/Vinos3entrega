@@ -1,0 +1,41 @@
+.secciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parrafo-index {
+    text-align: justify;
+}
+
+.div-nosotros {
+    text-align: center;
+
+    .img-nosotros {
+        width: 500px;
+    }
+}
+
+.clientes {
+    text-align: center;
+    padding-left: 5px;
+
+    .img-clientes {
+        padding: 5px;
+    }
+}
+
+.tit-clientes {
+    text-align: center;
+    color: $color-primario;
+    border-width: bold;
+    font-family: "Gravitas One", serif;
+}
+
+@media screen and (max-width: 767px) {
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

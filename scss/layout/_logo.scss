@@ -1,0 +1,22 @@
+.contenedor {
+    display: inline-block;
+
+    .logo {
+        font-family: "Krub", sans-serif;
+        font-family: "Vibur", cursive;
+        text-decoration: none;
+
+        span {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    color: $color-primario;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,47 @@
+.asid-cata {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    .sec-catas {
+        display: inline-block;
+        width: 30%;
+        height: 30%;
+        text-align: center;
+        padding: 20px;
+
+        .vinos-img {
+            width: 210px;
+            height: 210px;
+            border-radius: 50%;
+        }
+
+        .pcatas {
+            text-align: justify;
+        }
+
+        .boton {
+            background-color: $color-primario;
+            text-align: center;
+            border-radius: 8%;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .asid-cata {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vinos-img {
+        text-align: center;
+    }
+
+    .sec-catas {
+        width: 100%;
+        text-align: center;
+    }
+}

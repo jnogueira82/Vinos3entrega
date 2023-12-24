@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cata de Vinos-Nosotros</title>
+  <link rel="icon" href="../Img/ICON.png" type="image/x-icon" />
+  <link rel="preload" href="css/style.css" as="style" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Vibur&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <a class="logo" href="../index.html"> Cata<span>DeVinos</span> </a>
+    </div>
+    <div>
+      <nav class="navegacion">
+        <ul class="barra-de-navegacion">
+          <li class="navi"><a href="nosotros.html">Nosotros</a></li>
+          <li class="navi"><a href="clientes.html">Clientes</a></li>
+          <li class="navi"><a href="catas.html">Cata de Vino</a></li>
+          <li class="navi"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="div-contacto">
+        <img class="img-contacto" src="../img/tasting.webp" alt="Foto de contacto" />
+      </div>
+    </section>
+
+    <section>
+      <form class="formulario">
+        <fieldset>
+          <legend>Contactános llenando todos los campos</legend>
+
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input class="input-text" id="nombre" type="text" placeholder="Tu Nombre" />
+            </div>
+
+            <div class="campo">
+              <label for="telefono">Teléfono</label>
+              <input class="input-text" type="tel" id="telefono" placeholder="Tu Teléfono" />
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo</label>
+              <input class="input-text" id="correo" type="email" placeholder="Tu Email" />
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="input-text" id="mensaje"></textarea>
+            </div>
+          </div>
+          <!-- .contenedor-campos -->
+
+          <div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <h3>Todos los derechos Reservados</h3>
+  </footer>
+</body>
+
+</html>
